@@ -1,0 +1,28 @@
+---
+schemaVersion: '2.0.0' # Make sure to test the latest schema version
+commandTests:
+  - name: "Test if Terraform is installed"
+    command: "terraform"
+    args:
+      - "-version"
+    exitCode: 0
+  - name: "Test if eget is installed"
+    command: "eget"
+    args:
+      - "--version"
+    exitCode: 0
+  - name: "Test if tflint is installed"
+    command: "tflint"
+    args:
+      - "-v"
+    exitCode: 0
+  - name: "Test if terraform-docs is installed"
+    command: "terraform-docs"
+    args:
+      - "-v"
+    exitCode: 0
+  - name: "Test if checkov is installed"
+    command: "checkov"
+    args:
+      - "-v"
+    exitCode: 0
