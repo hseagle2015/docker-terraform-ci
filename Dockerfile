@@ -17,7 +17,7 @@ RUN apt-get update && apt-get upgrade -V -y \
 && cd /tmp/terraform && curl -o terraform.zip "https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_${TARGETARCH}.zip" \
 && unzip terraform.zip && mv terraform /usr/local/bin/ \
 && mkdir -p /tmp/eget && cd /tmp/eget/ && curl -o eget.tar.gz -L "https://github.com/zyedidia/eget/releases/download/v${EGET_VERSION}/eget-${EGET_VERSION}-linux_${TARGETARCH}.tar.gz" \
-&& tar xvvfz eget.tar.gz --strip-components=1 "eget-${EGET_VERSION}-linux_amd64/eget" \
+&& tar xvvfz eget.tar.gz --strip-components=1 "eget-${EGET_VERSION}-linux_${TARGETARCH}/eget" \
 && mv eget /usr/local/bin/ \
 && find /usr/local/bin/ -type f -exec chmod 755 {} \; \
 && eget --to /usr/local/bin/ bridgecrewio/checkov \
