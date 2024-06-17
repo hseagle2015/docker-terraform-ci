@@ -1,0 +1,7 @@
+[clog]
+repository = "https://github.com/hseagle2015/docker-terraform-ci"
+changelog = "CHANGELOG.md"
+from-latest-tag = true
+
+[sections]
+Deps = ["ci"]
