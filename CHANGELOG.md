@@ -1,3 +1,13 @@
+<a name="0.1.3"></a>
+## 0.1.3 (2024-06-18)
+
+
+#### Maintenance
+
+* **dockerfile:**  Add image entrypoint. ([09f54c31](https://github.com/hseagle2015/docker-terraform-ci/commit/09f54c31ac73d516ced3a4e299f409d152bfd6e3))
+
+
+
 <a name="0.1.2"></a>
 ## 0.1.2 (2024-06-18)
 
