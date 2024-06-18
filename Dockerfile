@@ -24,3 +24,6 @@ RUN apt-get update && apt-get upgrade -V -y \
 && eget --to /usr/local/bin/ terraform-docs/terraform-docs \
 && eget --to /usr/local/bin/ terraform-linters/tflint \
 && rm -rfv /tmp/* /var/lib/apt/lists/*
+
+ENTRYPOINT ["terraform"]
+CMD ["-help"]
