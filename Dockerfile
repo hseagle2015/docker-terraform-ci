@@ -8,10 +8,12 @@ ARG EGET_VERSION
 ARG DEBIAN_RELEASE
 ARG TARGETARCH
 ENV DEBIAN_FRONTEND noninteractive
-MAINTAINER "sasa@tekovic.com"
-LABEL org.opencontainers.image.source https://github.com/hseagle2015/docker-terraform-ci
 
-RUN apt-get update && apt-get upgrade -V -y \
+LABEL org.opencontainers.image.source https://github.com/hseagle2015/docker-terraform-ci
+LABEL org.opencontainers.image.authors="sasa@tekovic.com"
+
+RUN useradd -m terraform -s /bin/bash \
+&& apt-get update && apt-get upgrade -V -y \
 && apt-get install -V -y curl git unzip tar \
 && mkdir -p /tmp/terraform \
 && cd /tmp/terraform && curl -o terraform.zip "https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_${TARGETARCH}.zip" \
@@ -25,5 +27,6 @@ RUN apt-get update && apt-get upgrade -V -y \
 && eget --to /usr/local/bin/ terraform-linters/tflint \
 && rm -rfv /tmp/* /var/lib/apt/lists/*
 
+USER terraform:terraform
 ENTRYPOINT ["terraform"]
 CMD ["-help"]

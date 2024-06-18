@@ -1,3 +1,13 @@
+<a name="0.1.4"></a>
+## 0.1.4 (2024-06-18)
+
+
+#### Maintenance
+
+* **dockerfile:**  Use terraform as default container user. ([0bddfed8](https://github.com/hseagle2015/docker-terraform-ci/commit/0bddfed874e326fad433329e27286f7ca1189e9d))
+
+
+
 <a name="0.1.3"></a>
 ## 0.1.3 (2024-06-18)
 
