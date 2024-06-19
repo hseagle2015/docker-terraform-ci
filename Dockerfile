@@ -14,7 +14,7 @@ LABEL org.opencontainers.image.authors="sasa@tekovic.com"
 
 RUN useradd -m terraform -s /bin/bash \
 && apt-get update && apt-get upgrade -V -y \
-&& apt-get install -V -y curl git unzip tar \
+&& apt-get install -V -y curl git unzip tar age \
 && mkdir -p /tmp/terraform \
 && cd /tmp/terraform && curl -o terraform.zip "https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_${TARGETARCH}.zip" \
 && unzip terraform.zip && mv terraform /usr/local/bin/ \
@@ -25,6 +25,7 @@ RUN useradd -m terraform -s /bin/bash \
 && eget --to /usr/local/bin/ bridgecrewio/checkov \
 && eget --to /usr/local/bin/ terraform-docs/terraform-docs \
 && eget --to /usr/local/bin/ terraform-linters/tflint \
+&& eget --to /usr/local/bin/ -a '^sbom.json' getsops/sops \
 && rm -rfv /tmp/* /var/lib/apt/lists/*
 
 USER terraform:terraform
