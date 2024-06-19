@@ -1,3 +1,13 @@
+<a name="0.2.0"></a>
+## 0.2.0 (2024-06-19)
+
+
+#### Features
+
+*   Add SOPS and Age tools. ([eae1527c](https://github.com/hseagle2015/docker-terraform-ci/commit/eae1527c59b95212df8ab0a947babaab4b97a758))
+
+
+
 <a name="0.1.4"></a>
 ## 0.1.4 (2024-06-18)
 
