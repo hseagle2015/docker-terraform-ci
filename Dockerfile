@@ -1,11 +1,17 @@
-ARG TERRAFORM_VERSION="1.8.5"
-ARG EGET_VERSION="1.3.4"
-ARG DEBIAN_RELEASE="bookworm"
+ARG TERRAFORM_VERSION="1.8.5" # github-tags/hashicorp/terraform&versioning=semver
+ARG EGET_VERSION="1.3.4" # github-tags/zyedidia/eget&versioning=semver
+ARG CHECKOV_VERSION="3.2.144" # github-tags/bridgecrewio/checkov&versioning=semver
+ARG TFDOCS_VERSION="0.18.0" # github-tags/terraform-docs/terraform-docs&versioning=semver
+ARG TFLINT_VERSION="0.51.1" # github-tags/terraform-linters/tflint&versioning=semver
+ARG SOPS_VERSION="3.8.1" # github-tags/getsops/sops&versioning=semver
 
-FROM debian:${DEBIAN_RELEASE}-slim
+FROM debian:12.5-slim
 ARG TERRAFORM_VERSION
 ARG EGET_VERSION
-ARG DEBIAN_RELEASE
+ARG CHECKOV_VERSION
+ARG TFDOCS_VERSION
+ARG TFLINT_VERSION
+ARG SOPS_VERSION
 ARG TARGETARCH
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -22,10 +28,10 @@ RUN useradd -m terraform -s /bin/bash \
 && tar xvvfz eget.tar.gz --strip-components=1 "eget-${EGET_VERSION}-linux_${TARGETARCH}/eget" \
 && mv eget /usr/local/bin/ \
 && find /usr/local/bin/ -type f -exec chmod 755 {} \; \
-&& eget --to /usr/local/bin/ bridgecrewio/checkov \
-&& eget --to /usr/local/bin/ terraform-docs/terraform-docs \
-&& eget --to /usr/local/bin/ terraform-linters/tflint \
-&& eget --to /usr/local/bin/ -a '^sbom.json' getsops/sops \
+&& eget --to /usr/local/bin/ bridgecrewio/checkov -t ${CHECKOV_VERSION} \
+&& eget --to /usr/local/bin/ terraform-docs/terraform-docs -t ${TFDOCS_VERSION} \
+&& eget --to /usr/local/bin/ terraform-linters/tflint -t ${TFLINT_VERSION} \
+&& eget --to /usr/local/bin/ -a '^sbom.json' getsops/sops -t ${SOPS_VERSION} \
 && rm -rfv /tmp/* /var/lib/apt/lists/*
 
 USER terraform:terraform

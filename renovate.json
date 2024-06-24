@@ -5,5 +5,16 @@
     ":semanticCommits",
     ":semanticCommitTypeAll(ci)",
     ":assignAndReview(hseagle2015)"
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["^Dockerfile$"],
+      "matchStringsStrategy": "any",
+      "matchStrings": [
+        "ARG [A-Z]+_VERSION=\"(?<currentValue>.*)\" # (?<datasource>.*?)/(?<depName>.*?)(\\&versioning=(?<versioning>.*?))?\\s"
+      ],
+      "datasourceTemplate": "docker"
+    }
   ]
 }
