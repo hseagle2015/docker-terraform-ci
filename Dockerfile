@@ -1,6 +1,6 @@
 ARG TERRAFORM_VERSION="1.8.5" # github-tags/hashicorp/terraform&versioning=semver
 ARG EGET_VERSION="1.3.4" # github-tags/zyedidia/eget&versioning=semver
-ARG CHECKOV_VERSION="3.2.144" # github-tags/bridgecrewio/checkov&versioning=semver
+ARG CHECKOV_VERSION="3.2.145" # github-tags/bridgecrewio/checkov&versioning=semver
 ARG TFDOCS_VERSION="0.18.0" # github-tags/terraform-docs/terraform-docs&versioning=semver
 ARG TFLINT_VERSION="0.51.1" # github-tags/terraform-linters/tflint&versioning=semver
 ARG SOPS_VERSION="3.8.1" # github-tags/getsops/sops&versioning=semver
