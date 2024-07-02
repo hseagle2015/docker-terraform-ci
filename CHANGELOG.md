@@ -1,3 +1,15 @@
+<a name="0.3.2"></a>
+## 0.3.2 (2024-07-02)
+
+
+#### Deps
+
+* **deps:**
+  *  update debian docker tag to v12.6 ([f64d127f](https://github.com/hseagle2015/docker-terraform-ci/commit/f64d127f85b04357d6f6fcd51b9ca4dff49eeae6))
+  *  update dependency bridgecrewio/checkov to v3.2.163 ([918ba805](https://github.com/hseagle2015/docker-terraform-ci/commit/918ba80515ad7754fed579ac30cb1e4ddde9d10c))
+
+
+
 <a name="0.3.1"></a>
 ## 0.3.1 (2024-07-01)
 
@@ -11,7 +23,7 @@
 
 
 <a name="0.3.0"></a>
-## 0.3.0 (2024-07-01)
+## 0.3.0 (2024-06-26)
 
 #### Deps
 
