@@ -1,3 +1,15 @@
+<a name="0.3.6"></a>
+## 0.3.6 (2024-08-20)
+
+
+#### Deps
+
+* **deps:**
+  *  update dependency terraform-linters/tflint to v0.53.0 ([99faf854](https://github.com/hseagle2015/docker-terraform-ci/commit/99faf85400485a5db10085bb29f587d21aeb92fb))
+  *  update dependency bridgecrewio/checkov to v3.2.232 ([c3d67040](https://github.com/hseagle2015/docker-terraform-ci/commit/c3d67040a28f4a0d9dde1bde011d591eb0204b49))
+
+
+
 <a name="v0.3.5"></a>
 ## v0.3.5 (2024-08-15)
 
