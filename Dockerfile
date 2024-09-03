@@ -13,9 +13,9 @@ ARG TFDOCS_VERSION
 ARG TFLINT_VERSION
 ARG SOPS_VERSION
 ARG TARGETARCH
-ENV DEBIAN_FRONTEND noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
 
-LABEL org.opencontainers.image.source https://github.com/hseagle2015/docker-terraform-ci
+LABEL org.opencontainers.image.source=https://github.com/hseagle2015/docker-terraform-ci
 LABEL org.opencontainers.image.authors="sasa@tekovic.com"
 
 RUN useradd -m terraform -s /bin/bash \
