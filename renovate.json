@@ -5,12 +5,18 @@
     ":semanticCommits",
     ":semanticCommitTypeAll(ci)"
   ],
-  "schedule": ["after 8am and before 2pm every tuesday"],
-  "assignees": ["@hseagle2015"],
+  "schedule": [
+    "after 8am and before 2pm on tuesday"
+  ],
+  "assignees": [
+    "@hseagle2015"
+  ],
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^Dockerfile$"],
+      "fileMatch": [
+        "^Dockerfile$"
+      ],
       "matchStringsStrategy": "any",
       "matchStrings": [
         "ARG [A-Z]+_VERSION=\"(?<currentValue>.*)\" # (?<datasource>.*?)/(?<depName>.*?)(\\&versioning=(?<versioning>.*?))?\\s"
