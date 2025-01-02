@@ -12,6 +12,10 @@ on:
     branches:
       - main
 
+concurrency:
+  group: build  # fixed group name to prevent multiple workflows from running at the same time
+  cancel-in-progress: false  # This prevents canceling the in-progress job/workflow
+
 env:
   TEST_TAG: stekovic/terraform-ci:test
 
