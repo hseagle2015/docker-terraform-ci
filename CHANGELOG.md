@@ -1,3 +1,17 @@
+<a name="1.11.4"></a>
+## 1.11.4 (2025-04-16)
+
+
+#### Deps
+
+* **deps:**
+  *  update dependency hashicorp/terraform to v1.11.4 ([d82a902a](https://github.com/hseagle2015/docker-terraform-ci/commit/d82a902a3b8ecae5f27aec538aa78eafa3a4b39d))
+  *  update dependency bridgecrewio/checkov to v3.2.404 ([7852a7d1](https://github.com/hseagle2015/docker-terraform-ci/commit/7852a7d1c6fb9cb134f249e7defd2bf347e5d8d1))
+  *  update dependency getsops/sops to v3.10.2 ([9c81d695](https://github.com/hseagle2015/docker-terraform-ci/commit/9c81d695aea52d20379672486b636569dc4df9b7))
+  *  update dependency terraform-docs/terraform-docs to v0.20.0 ([8d70d706](https://github.com/hseagle2015/docker-terraform-ci/commit/8d70d70608bb2084131bc8c1a9abcc37e42af8d2))
+
+
+
 <a name="1.11.3"></a>
 ## 1.11.3 (2025-04-04)
 
