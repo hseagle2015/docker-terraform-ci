@@ -2,7 +2,7 @@ ARG TERRAFORM_VERSION="1.11.4" # github-tags/hashicorp/terraform&versioning=semv
 ARG EGET_VERSION="1.3.4" # github-tags/zyedidia/eget&versioning=semver
 ARG CHECKOV_VERSION="3.2.404" # github-tags/bridgecrewio/checkov&versioning=semver
 ARG TFDOCS_VERSION="0.20.0" # github-tags/terraform-docs/terraform-docs&versioning=semver
-ARG TFLINT_VERSION="0.55.1" # github-tags/terraform-linters/tflint&versioning=semver
+ARG TFLINT_VERSION="0.57.0" # github-tags/terraform-linters/tflint&versioning=semver
 ARG SOPS_VERSION="3.10.2" # github-tags/getsops/sops&versioning=semver
 
 FROM debian:12.10-slim
