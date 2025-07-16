@@ -18,6 +18,7 @@ concurrency:
 
 env:
   TEST_TAG: stekovic/terraform-ci:test
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   docker:
