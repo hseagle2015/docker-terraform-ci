@@ -1,6 +1,6 @@
 ARG TERRAFORM_VERSION="1.12.2" # github-tags/hashicorp/terraform&versioning=semver
 ARG EGET_VERSION="1.3.4" # github-tags/zyedidia/eget&versioning=semver
-ARG CHECKOV_VERSION="3.2.445" # github-tags/bridgecrewio/checkov&versioning=semver
+ARG CHECKOV_VERSION="3.2.461" # github-tags/bridgecrewio/checkov&versioning=semver
 ARG TFDOCS_VERSION="0.20.0" # github-tags/terraform-docs/terraform-docs&versioning=semver
 ARG TFLINT_VERSION="0.58.0" # github-tags/terraform-linters/tflint&versioning=semver
 ARG SOPS_VERSION="3.10.2" # github-tags/getsops/sops&versioning=semver
@@ -31,7 +31,8 @@ RUN useradd -m terraform -s /bin/bash \
 && eget --to /usr/local/bin/ terraform-docs/terraform-docs -t ${TFDOCS_VERSION} \
 && eget --to /usr/local/bin/ terraform-linters/tflint -t ${TFLINT_VERSION} \
 && eget --to /usr/local/bin/ -a '^sbom.json' getsops/sops -t ${SOPS_VERSION} \
-&& pip3 install checkov==${CHECKOV_VERSION} --break-system-packages \
+#&& pip3 install checkov==${CHECKOV_VERSION} --break-system-packages \
+&& eget --to /usr/local/bin/ bridgecrewio/checkov -t ${CHECKOV_VERSION} \
 && rm -rfv /tmp/* /var/lib/apt/lists/*
 
 USER terraform:terraform
