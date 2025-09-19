@@ -1,3 +1,16 @@
+<a name="v1.13.3"></a>
+## v1.13.3 (2025-09-19)
+
+
+#### Deps
+
+* **deps:**
+  *  update dependency hashicorp/terraform to v1.13.3 ([0c40425d](https://github.com/hseagle2015/docker-terraform-ci/commit/0c40425de1c3aa1c7eca2979e02ae7238503cafb))
+  *  update dependency bridgecrewio/checkov to v3.2.471 ([73ebb422](https://github.com/hseagle2015/docker-terraform-ci/commit/73ebb422207eaa362006728c1f85b5ad73ef4f38))
+  *  update debian docker tag to v13.1 ([2bd76d7f](https://github.com/hseagle2015/docker-terraform-ci/commit/2bd76d7f34ab12d31139b6b9e67a7de7e0107f9c))
+
+
+
 <a name="1.13.1"></a>
 ## 1.13.1 (2025-09-01)
 
