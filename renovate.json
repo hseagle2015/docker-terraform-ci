@@ -14,8 +14,8 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": [
-        "^Dockerfile$"
+      "managerFilePatterns": [
+        "/^Dockerfile$/"
       ],
       "matchStringsStrategy": "any",
       "matchStrings": [
