@@ -1,3 +1,13 @@
+<a name="1.14.1"></a>
+## 1.14.1 (2025-12-09)
+
+
+#### Deps
+
+* **deps:**  update dependency hashicorp/terraform to v1.14.1 ([d03d490b](https://github.com/hseagle2015/docker-terraform-ci/commit/d03d490b6424e777e4bfa41b012e75ff6a9c7cb2))
+
+
+
 <a name="1.14.0"></a>
 ## 1.14.0 (2025-11-24)
 
