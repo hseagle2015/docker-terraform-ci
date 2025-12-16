@@ -1,3 +1,15 @@
+<a name="1.14.2"></a>
+## 1.14.2 (2025-12-16)
+
+
+#### Deps
+
+* **deps:**
+  *  update dependency terraform-docs/terraform-docs to v0.21.0 ([65bcdbd5](https://github.com/hseagle2015/docker-terraform-ci/commit/65bcdbd5f80b14109d73c557fa953f88ff9ab569))
+  *  update dependency hashicorp/terraform to v1.14.2 ([27d48d83](https://github.com/hseagle2015/docker-terraform-ci/commit/27d48d83370af1991a3bf8e1371cb51c4b350450))
+
+
+
 <a name="1.14.1"></a>
 ## 1.14.1 (2025-12-09)
 
