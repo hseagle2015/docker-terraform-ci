@@ -1,3 +1,21 @@
+<a name="1.14.7"></a>
+## 1.14.7 (2026-03-18)
+
+
+#### Deps
+
+* **deps:**
+  *  update dependency hashicorp/terraform to v1.14.7 ([7bfe2b89](https://github.com/hseagle2015/docker-terraform-ci/commit/7bfe2b8949f5ec649051deb550505802d28930c0))
+  *  update dependency bridgecrewio/checkov to v3.2.508 ([3edb60f6](https://github.com/hseagle2015/docker-terraform-ci/commit/3edb60f61f2ddadd8417dbf71ed71ee1e4308bf9))
+  *  update debian docker tag to v13.4 ([bfcac533](https://github.com/hseagle2015/docker-terraform-ci/commit/bfcac53368e912822e1d68d4e8dac374f24dac8f))
+  *  update docker/setup-qemu-action action to v4 ([b986ece5](https://github.com/hseagle2015/docker-terraform-ci/commit/b986ece5d18ca21c80a8041c96d7578407f5dde4))
+  *  update docker/setup-buildx-action action to v4 ([7d25cece](https://github.com/hseagle2015/docker-terraform-ci/commit/7d25cece11028a5a20b8e2e8e1b7c9f168207bda))
+  *  update docker/build-push-action action to v7 ([cc8c711a](https://github.com/hseagle2015/docker-terraform-ci/commit/cc8c711a876c0b8fa203086a75f97a907baff499))
+  *  update docker/login-action action to v4 ([763a3b74](https://github.com/hseagle2015/docker-terraform-ci/commit/763a3b744c2bddb71b92673f153c0b9f74494682))
+  *  update docker/metadata-action action to v6 ([6205c47c](https://github.com/hseagle2015/docker-terraform-ci/commit/6205c47c301929b35a8b01d0a987524695f5aa0a))
+
+
+
 <a name="1.14.6"></a>
 ## 1.14.6 (2026-03-06)
 
