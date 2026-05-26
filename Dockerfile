@@ -5,7 +5,7 @@ ARG TFDOCS_VERSION="0.22.0" # github-tags/terraform-docs/terraform-docs&versioni
 ARG TFLINT_VERSION="0.62.0" # github-tags/terraform-linters/tflint&versioning=semver
 ARG SOPS_VERSION="3.12.2" # github-tags/getsops/sops&versioning=semver
 
-FROM debian:13.4-slim
+FROM debian:13.5-slim
 ARG TERRAFORM_VERSION
 ARG EGET_VERSION
 ARG CHECKOV_VERSION
