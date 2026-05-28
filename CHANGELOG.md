@@ -1,3 +1,17 @@
+<a name="1.15.5"></a>
+## 1.15.5 (2026-05-28)
+
+
+#### Deps
+
+* **deps:**
+  *  update dependency hashicorp/terraform to v1.15.5 ([72dad03f](https://github.com/hseagle2015/docker-terraform-ci/commit/72dad03f95be14feed5c10b181ac0f22828b3c2c))
+  *  update dependency getsops/sops to v3.13.1 ([5046608b](https://github.com/hseagle2015/docker-terraform-ci/commit/5046608b4f5503d43ac63e292305892c3f704c8b))
+  *  update dependency terraform-linters/tflint to v0.62.1 ([e6927f18](https://github.com/hseagle2015/docker-terraform-ci/commit/e6927f18fdf5cd1c264694b658caf7afa87ce059))
+  *  update debian docker tag to v13.5 ([c3c41b67](https://github.com/hseagle2015/docker-terraform-ci/commit/c3c41b6740cd330b0d9125c282f0d51741a48344))
+
+
+
 <a name="1.15.3"></a>
 ## 1.15.3 (2026-05-19)
 
