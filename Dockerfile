@@ -1,4 +1,4 @@
-ARG TERRAFORM_VERSION="1.15.5" # github-tags/hashicorp/terraform&versioning=semver
+ARG TERRAFORM_VERSION="1.15.6" # github-tags/hashicorp/terraform&versioning=semver
 ARG EGET_VERSION="1.3.4" # github-tags/zyedidia/eget&versioning=semver
 ARG CHECKOV_VERSION="3.3.1" # github-tags/bridgecrewio/checkov&versioning=semver
 ARG TFDOCS_VERSION="0.24.0" # github-tags/terraform-docs/terraform-docs&versioning=semver
