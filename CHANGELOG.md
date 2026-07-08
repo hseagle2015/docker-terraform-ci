@@ -1,3 +1,18 @@
+<a name="1.15.6"></a>
+## 1.15.6 (2026-06-23)
+
+
+#### Deps
+
+* **deps:**
+  *  update terraform monorepo to v1.15.6 ([4140853d](https://github.com/hseagle2015/docker-terraform-ci/commit/4140853d0dcc0d9875c4009bec27cc00616cc56b))
+  *  update dependency terraform-linters/tflint to v0.63.1 ([bedbb2f0](https://github.com/hseagle2015/docker-terraform-ci/commit/bedbb2f0272cea762eb33b6609a0fc47281926e4))
+  *  update dependency terraform-docs/terraform-docs to v0.24.0 ([b0c98fd0](https://github.com/hseagle2015/docker-terraform-ci/commit/b0c98fd0921da77ad2e7d9bb6dfaff7d5e065d70))
+  *  update dependency bridgecrewio/checkov to v3.3.1 ([19fb2a5d](https://github.com/hseagle2015/docker-terraform-ci/commit/19fb2a5d60ac3f595073d635dd523f5345a85c9e))
+  *  update actions/checkout action to v7 ([998d23eb](https://github.com/hseagle2015/docker-terraform-ci/commit/998d23eb18590125449f19962bca3df141aded4a))
+
+
+
 <a name="1.15.5"></a>
 ## 1.15.5 (2026-05-28)
 
