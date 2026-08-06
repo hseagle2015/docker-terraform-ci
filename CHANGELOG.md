@@ -1,3 +1,19 @@
+<a name="1.15.8"></a>
+## 1.15.8 (2026-08-06)
+
+
+#### Deps
+
+* **deps:**
+  *  update dependency bridgecrewio/checkov to v3.3.9 ([1b9a144a](https://github.com/hseagle2015/docker-terraform-ci/commit/1b9a144ab3df55c74fb3539b1a22ca0380e3b5c7))
+  *  update dependency getsops/sops to v3.13.3 ([69da4064](https://github.com/hseagle2015/docker-terraform-ci/commit/69da406492ec07e2d9443c674b7e9b69295bea18))
+  *  update dependency terraform-linters/tflint to v0.64.0 ([c5adbb5f](https://github.com/hseagle2015/docker-terraform-ci/commit/c5adbb5fef1d07da692c59a753751b82d72b3a49))
+  *  update dependency hashicorp/terraform to v1.15.8 ([1725833f](https://github.com/hseagle2015/docker-terraform-ci/commit/1725833ffe4adbc37cbcc1debf12a70f59142ba7))
+  *  update debian docker tag to v13.6 ([63c2a4af](https://github.com/hseagle2015/docker-terraform-ci/commit/63c2a4af71eb6ed3c9c15032e0de1a8e033c5456))
+  *  update dependency bridgecrewio/checkov to v3.3.8 ([cb694349](https://github.com/hseagle2015/docker-terraform-ci/commit/cb694349562a32cc7199f4107422e1614ea1bc77))
+
+
+
 <a name="1.15.7"></a>
 ## 1.15.7 (2026-07-08)
 
