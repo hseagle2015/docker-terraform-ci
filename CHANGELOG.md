@@ -1,3 +1,15 @@
+<a name="1.16.0"></a>
+## 1.16.0 (2026-08-31)
+
+
+#### Deps
+
+* **deps:**
+  *  update dependency hashicorp/terraform to v1.16.0 ([e247b4dc](https://github.com/hseagle2015/docker-terraform-ci/commit/e247b4dc6d0441ce1dfa86999b27450559547840))
+  *  update dependency bridgecrewio/checkov to v3.3.16 ([cb84d75c](https://github.com/hseagle2015/docker-terraform-ci/commit/cb84d75ce99490464ac3a28bd9c00f33675dc6fe))
+
+
+
 <a name="1.15.8"></a>
 ## 1.15.8 (2026-08-06)
 
